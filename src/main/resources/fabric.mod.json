@@ -3,8 +3,8 @@
   "id": "itemized_everything",
   "version": "${version}",
   "name": "Itemized Everything",
-  "description": "",
-  "authors": [],
+  "description": "Add missing items to the game like fire item",
+  "authors": ["Aikoyori"],
   "contact": {
     "repo": "https://github.com/Aikoyori/ItemizedEverything"
   },
@@ -23,7 +23,6 @@
     "itemized_everything.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
