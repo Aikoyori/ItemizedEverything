@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.aikoyori.itemized_everything.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "registries.AddItemsForBlocks"
+  ],
+  "client": [
+    "accessors.DrawContextAccessor",
+    "registries.RenderBlockInPlaceOfItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
